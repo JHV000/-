@@ -1,15 +1,39 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/my/my",
-    "pages/main/main"
+    "pages/main/main",
+    "pages/check/check",
+    "pages/my/my"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Youthol请假条",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor":"#1296db",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "请假",
+        "iconPath":"src/img/leave.png",
+        "selectedIconPath":"src/img/leave-selected.png"
+      },
+      {
+        "pagePath": "pages/check/check",
+        "text": "审批",
+        "iconPath": "src/img/check.png",
+        "selectedIconPath": "src/img/check-selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "src/img/my.png",
+        "selectedIconPath": "src/img/my-selected.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

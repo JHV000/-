@@ -1,5 +1,1 @@
 /* pages/my.wxss */
-* {
-    margin: 0;
-    padding: 0;
-}
